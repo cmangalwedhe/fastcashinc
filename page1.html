@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>How to make money!</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+
+	<body id="hello2">
+		<div class="bruh2">
+			<h1 id="thomas">Here's to becoming a trillionaire!</h1>
+			<p id="zaki">First off, I want to thank our advertisers, who allow us to create and expand our platform to new levels. Without them, we would be nothing. I want to thank Pugli, Zackee, and Mr. Hryce Bulett. Even though we started operations in 2006 on the wrong foot, we at FA$TCA$H Inc. always wanted to assist the people in meeting their financial goals. Whether it's through siphoning their data to offshore data centers who pay us millions of dollars for their data to earning money from advertisers who block the content that you are reading, we help you realize one of they key ways to become a trillionaire are desparation and a negative bank balance. In fact, as airhostesses say, "in the event of a loss of cabin air pressure, please wear your oxygen mask before helping others." Now that we have fastened our oxygen mask, we are ready to put yours on.<br><br></p>
+
+			<p id="eric">Now before we get to making you rich, here a variety of fun facts!</p>
+			<ul>
+				<li>Racecar is a palindrome</li>
+				<li>FA$TCA$H Inc. does not claim responsibility for any financial repercussions from the information posted on this page.</li>
+			</ul>
+
+			<h2>Now for the fun part, press the button below to find out!</h2>
+			<br><br><br><br>
+			<button class="hi" data-toggle="modal" data-target="#myModal">
+				Continue Reading
+			</button>
+
+
+			<!-- Modal -->
+			<div id="myModal" data-backdrop="static" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 class="modal-title">Enter your information!</h4>
+			      </div>
+			      <div class="modal-body">
+			        <form>
+			        	<label for="firstname">Enter First Name:</label><br>
+			        	<input type="text" id="firstname"><br>
+			        	<label for="lastname">Enter Last Name:</label><br>
+			        	<input type="text" id="lastname"><br>
+			        	<label for="email">Enter email address:</label><br>
+			        	<input type="text" id="email"><br>
+			        	<label for="password" type="password">Enter password used for email address:</label><br>
+			        	<input type="password" id="password"><br>
+			        	<label for="number">Enter phone number:</label><br>
+			        	<input type="text" id="number" placeholder="(123) 456-7890 format">
+			        </form>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" onclick="ale()">Submit</button>
+			      </div>
+			    </div>
+			   </div>
+  			</div>
+
+  			<script>
+  				function ale() {
+  					if (document.getElementById("firstname").value === "" || document.getElementById("lastname").value === "" || document.getElementById("email").value === "" || document.getElementById("password").value === "" || document.getElementById("number").value === "") {
+  						alert("Hold on there, to leave this webpage, you MUST fill in the following information in order to proceed. Do you not want to become a trillionaire?")
+  						alert("Not so fast, please register otherwise you will never be able to reach the success you desire!")
+  					} else {
+  						$('#myModal').modal('hide')
+
+  					}
+  				}
+  			</script>
+		</div>
+	</body>
+</html>
