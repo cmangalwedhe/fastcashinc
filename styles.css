@@ -108,7 +108,6 @@ li {
 }
 
 .hi {
-  display: inline-block;
   outline: 0;
   border: 0;
   cursor: pointer;
@@ -119,8 +118,8 @@ li {
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
-  position: absolute;
-  top: 41%;
+  position: relative;
+  margin-top: -100px;
   left: 50%;
   transform: translate(-50%, -50%)
 }
