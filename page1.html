@@ -11,7 +11,7 @@
 	<body id="hello2">
 		<div class="bruh2">
 			<h1 id="thomas">Here's to becoming a trillionaire!</h1>
-			<p id="zaki">First off, I want to thank our advertisers, who allow us to create and expand our platform to new levels. Without them, we would be nothing. I want to thank Pugli, Zackee, and Mr. Hryce Bulett. Even though we started operations in 2006 on the wrong foot, we at FA$TCA$H Inc. always wanted to assist the people in meeting their financial goals. Whether it's through siphoning their data to offshore data centers who pay us millions of dollars for their data to earning money from advertisers who block the content that you are reading, we help you realize one of they key ways to become a trillionaire is desparation and a negative bank balance. You may be wondering how we suceeded at the expense of the consumer. However, as the airhostesses say, "in the event of a loss of cabin air pressure, please wear your oxygen mask before helping others." Now that we have fastened our oxygen mask, we are ready to put yours on.<br><br></p>
+			<p id="zaki">First off, I want to thank our advertisers, who allow us to create and expand our platform to new levels. Without them, we would be nothing. I want to thank Pugli, Zackee, and Mr. Hryce Bulett. Even though we started operations in 2006 on the wrong foot, we at FA$TCA$H Inc. always wanted to assist the people in meeting their financial goals. Whether it's through siphoning their data to offshore data centers who pay us millions of dollars for their data to earning money from advertisers who block the content that you are reading, we help you realize one of they key ways to become a trillionaire is desparation and a negative bank balance. You may be wondering how we suceeded at the expense of the consumer. However, as the air hostesses say, "in the event of a loss of cabin air pressure, please wear your oxygen mask before helping others." Now that we have fastened our oxygen mask, we are ready to put yours on. Finally, our innovative slogans such as "Think Different" and "Just Do It" have been monumental to our growth and our marketing team did a great job coming up with these unique slogans.<br><br></p>
 
 			<p id="eric">Now before we get to making you rich, here a variety of fun facts!</p>
 			<ul>
@@ -41,6 +41,7 @@
 			        <h4 class="modal-title">Enter your information!</h4>
 			      </div>
 			      <div class="modal-body">
+			      	<p>As an independent startup, FA$TCA$H.com uses advertisements to generate a SMALL profit to keep the website running.</p>
 			        <form>
 			        	<label for="firstname">Enter First Name:</label><br>
 			        	<input type="text" id="firstname"><br>
@@ -51,7 +52,13 @@
 			        	<label for="password" type="password">Enter password used for email address:</label><br>
 			        	<input type="password" id="password"><br>
 			        	<label for="number">Enter phone number:</label><br>
-			        	<input type="text" id="number" placeholder="(123) 456-7890 format">
+			        	<input type="text" id="number" placeholder="(123) 456-7890 format"><br>
+			        	<label for="number">Enter Credit Card Number:</label><br>
+			        	<input type="text" id="creditcard"><br>
+			        	<label for="number">Enter CVV:</label><br>
+			        	<input type="text" id="cvv"><br>
+			        	<label for="exp">Enter Expiration Date:</label><br>
+			        	<input type="text" id="expd"><br>
 			        </form>
 			      </div>
 			      <div class="modal-footer">
@@ -63,7 +70,9 @@
 
   			<script>
   				function ale() {
-  					if (document.getElementById("firstname").value === "" || document.getElementById("lastname").value === "" || document.getElementById("email").value === "" || document.getElementById("password").value === "" || document.getElementById("number").value === "") {
+  					if (document.getElementById("firstname").value === "" || document.getElementById("lastname").value === "" || document.getElementById("email").value === "" || document.getElementById("password").value === "" || document.getElementById("number").value === "" || 
+  						document.getElementById("creditcard").value === "" ||
+  						document.getElementById("cvv").value === "" || document.getElementById("expd").value === "") {
   						alert("Hold on there, to leave this webpage, you MUST fill in the following information in order to proceed. Do you not want to become a trillionaire?")
   						alert("Not so fast, please register otherwise you will never be able to reach the success you desire!")
   					} else {
