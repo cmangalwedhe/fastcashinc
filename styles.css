@@ -172,6 +172,10 @@ li {
   width: auto;
 }
 
+ {
+	font-size: ;
+}
+
 .button-40:hover {
   background-color: #374151;
 }
@@ -186,4 +190,9 @@ li {
   .button-40 {
     padding: .75rem 1.5rem;
   }
+}
+
+#aiyaz {
+	font-family: system-ui;
+	font-size: 12px;
 }
