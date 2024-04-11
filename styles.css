@@ -21,6 +21,11 @@
 	text-align: center;
 }
 
+#lauver {
+	font-family: system-ui;
+	text-align: center;
+}
+
 #zaki {
 	font-family: system-ui;
 	text-align: center;
@@ -107,6 +112,16 @@ li {
   0 12px 10px -3px #39a2db;
 }
 
+#jalati {
+	display: block;
+	width: 400px;
+	height:400px;
+	left: 50%;
+	margin: auto;
+	margin-left: 40vw;
+	text-align: center;
+}
+
 .hi {
   outline: 0;
   border: 0;
@@ -120,11 +135,55 @@ li {
   line-height: 1;
   position: relative;
   display: block;
-  margin-top: 16px;
+  margin-top: 0px;
   left: 50%;
   transform: translate(-50%, -50%)
 }
 
 .hi:hover {
 	transform: translate(-50%, -52%);
+}
+
+/* CSS */
+.button-40 {
+	display: block;
+	margin: 10px auto;
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
 }
